@@ -1,5 +1,11 @@
 # pyCRGI
 
+The purpose of this fork is to fix installation of the library. When the library is installed with
+```bash
+pip install git+https://github.com/pleiszenburg/pyCRGI.git@master
+```
+the ```data``` folder containing ```igrf13coeffs.txt``` fails to get copied as well
+
 **``pyCRGI`` is a cleaned-up and modernized fork of ``pyIGRF``. Be aware that there are a number of small function and module name differences to the original ``pyIGRF`` package. The fork's main goals are verified results, tests, speed and ease of maintainability. This is work in progress.**
 
 - [x] package structure cleanup, allowing proper testing and packaging
