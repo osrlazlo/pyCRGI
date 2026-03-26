@@ -22,6 +22,8 @@ setup(
     url = "https://github.com/pleiszenburg/pyCRGI",
     packages = find_packages(SRC_DIR),
     package_dir = {"": SRC_DIR},
+    package_data = {"pyCRGI": ["data/*"]},
+    include_package_data = True,
     install_requires = [],
     extras_require = {
         "jited": [
