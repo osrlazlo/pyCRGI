@@ -2,7 +2,7 @@ The purpose of this fork is to fix installation of the library. When the library
 ```bash
 pip install git+https://github.com/pleiszenburg/pyCRGI.git@master
 ```
-the ```data``` folder containing ```igrf13coeffs.txt``` fails to get copied as well
+the ```data``` folder containing ```igrf13coeffs.txt``` fails to get installed and must be added manually.
 
 # pyCRGI
 
